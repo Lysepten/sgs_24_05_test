@@ -11,7 +11,7 @@ CREATE TABLE FAQ (
 );
 
 INSERT INTO FAQ (regDate, updateDate, question, answer) VALUES 
-(NOW(), NOW(), '이 프로젝트의 목적은 무엇인가요?', '프로젝트의 목표는 프로젝트의 주요 목표를 설명하는 것입니다 (예: "사용자가 기술 혁신을 공유하고 논의할 수 있는 플랫폼 제공").'),
+(NOW(), NOW(), '이 프로젝트의 목적은 무엇인가요?', '시험 제출용입니다.'),
 (NOW(), NOW(), '계정을 등록하려면 어떻게 해야 하나요?', '홈페이지에서 \'가입\' 버튼을 클릭한 후, 필요한 정보를 입력하고 지시에 따라 등록을 완료하세요.'),
 (NOW(), NOW(), '비밀번호를 잊어버리면 어떻게 해야 하나요?', '로그인 페이지로 이동하여 "비밀번호 찾기"를 클릭하고 이메일을 통해 비밀번호를 재설정하는 지침을 따르세요.'),
 (NOW(), NOW(), '내 프로필 정보를 어떻게 업데이트할 수 있나요?', '계정에 로그인한 후, "프로필" 섹션으로 이동하여 "프로필 수정"을 클릭하여 정보를 업데이트하세요.'),
@@ -92,3 +92,4 @@ INSERT INTO `TouristDestination` (`division`, `placename`, `location`, `phoneNum
 INSERT INTO `TouristDestination` (`division`, `placename`, `location`, `phoneNumber`, `URL`, `department`, `departmentphoneNumber`) VALUES('과학명소','특허청 발명교육센터(창의발명체험관)','대전광역시 유성구 과학로 82','042-601-4458','https://www.daejeon.go.kr/tou/TouTourView.do?tourSeq=901&viewName=1&menuSeq=960','관광마케팅과','042-270-3984\r');
 INSERT INTO `TouristDestination` (`division`, `placename`, `location`, `phoneNumber`, `URL`, `department`, `departmentphoneNumber`) VALUES('과학명소','한국원자력연구원(KAERI)','대전광역시 유성구 대덕대로989번길 111','042-868-2000','https://www.daejeon.go.kr/tou/TouTourView.do?tourSeq=902&viewName=1&menuSeq=960','관광마케팅과','042-270-3984\r');
 INSERT INTO `TouristDestination` (`division`, `placename`, `location`, `phoneNumber`, `URL`, `department`, `departmentphoneNumber`) VALUES('과학명소','한국표준과학연구원(KRISS)','대전광역시 유성구 가정로 267','042-868-5114','https://www.daejeon.go.kr/tou/TouTourView.do?tourSeq=905&viewName=1&menuSeq=960','관광마케팅과','042-270-3984');
+

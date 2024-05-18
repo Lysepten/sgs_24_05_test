@@ -47,7 +47,7 @@
 
 .search-btn {
 	padding: 10px 20px;
-	background-color: #4CAF50;
+	background-color: black;
 	color: white;
 	border: none;
 	border-radius: 5px;
@@ -125,11 +125,6 @@
 	color: #333; /* 어두운 글씨 */
 }
 
-/* .form-box { */
-/* display:block; */
-/* 		margin-left: auto; */
-/* 	margin-right: auto; */
-/* } */
 </style>
 
 <div class="big-outer-box">
@@ -141,7 +136,6 @@
 				<button type="submit" class="search-btn">검색</button>
 			</form>
 		</div>
-
 		<!-- 날씨 SELECT -->
 		<div class="content-box">
 			<div class="area-outer-box">
@@ -172,7 +166,6 @@
 				</div>
 			</div>
 		</div>
-		
 		<div class="tour-spot-box" id="tour-spot-box">
 			<div class="tour-spot-small-box">
 				<table class="tour-info-table">
@@ -197,14 +190,12 @@
 				</tr>
 			</c:forEach>
 					</tbody>
-
 				</table>
 			</div>
 
 		</div>
 	</div>
 </div>
-
 
 <script>
 	function handleRegionChange() {
@@ -223,8 +214,6 @@
 	document.addEventListener('DOMContentLoaded', handleRegionChange);
 </script>
 
-
-
 <script>
 	// 검색 함수
 	function searchFAQ() {
@@ -236,7 +225,6 @@
 		// 검색 결과는 ".news" 클래스를 가진 요소 안에 추가되도록 설정
 	}
 </script>
-
 
 <script>
     function fetchWeather() {
